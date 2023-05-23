@@ -1,0 +1,13 @@
+[package]
+name = "rust-ldap-login"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ldap3 = "0.7.1"
+reqwest = "0.11.6"
+ping-pong = "0.1.0"
+
+[dependencies.gtk]
+version = "0.9.2"
+features = ["v3_22"]
